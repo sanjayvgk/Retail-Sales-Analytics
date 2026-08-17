@@ -1,0 +1,17 @@
+-- Core Power BI measures for the cleaned_retail_sales table.
+Total Revenue = SUM(cleaned_retail_sales[Sales])
+Total Profit = SUM(cleaned_retail_sales[Profit])
+Total Orders = DISTINCTCOUNT(cleaned_retail_sales[Order ID])
+Total Quantity = SUM(cleaned_retail_sales[Quantity])
+Customers = DISTINCTCOUNT(cleaned_retail_sales[Customer ID])
+Average Discount = AVERAGE(cleaned_retail_sales[Discount])
+Profit Margin = DIVIDE([Total Profit], [Total Revenue])
+Average Order Value = DIVIDE([Total Revenue], [Total Orders])
+Average Shipping Days = AVERAGE(cleaned_retail_sales[Shipping Days])
+Loss-Making Orders =
+COUNTROWS(
+    FILTER(
+        VALUES(cleaned_retail_sales[Order ID]),
+        CALCULATE(SUM(cleaned_retail_sales[Profit])) < 0
+    )
+)

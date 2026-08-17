@@ -1,0 +1,22 @@
+column,simple_english_description
+Row ID,A simple row number for each record.
+Order ID,The unique code for a customer order.
+Order Date,The date when the customer placed the order.
+Ship Date,The date when the order was shipped.
+Ship Mode,The shipping speed or service selected for the order.
+Customer ID,The unique code for each customer.
+Customer Name,The name of the customer.
+Segment,"The type of customer, such as consumer or corporate."
+Country,The country where the order was delivered.
+City,The delivery city.
+State,The delivery state or province.
+Postal Code,The delivery postal or ZIP code.
+Region,The broader sales region for the order.
+Product ID,The unique code for the product.
+Category,The main product group.
+Sub-Category,The smaller product group inside the category.
+Product Name,The product sold to the customer.
+Sales,The revenue earned from the line item before profit calculations.
+Quantity,The number of units sold.
+Discount,The discount rate applied to the line item.
+Profit,The money left after costs for the line item.

@@ -1,6 +1,6 @@
 # Retail Sales Analytics
 
-A professional retail sales analytics and business intelligence portfolio project using **Python**, **MySQL**, and **Power BI**. The project is designed for Data Analyst and Business Intelligence roles and demonstrates end-to-end analytical thinking: data preparation, SQL analysis, dashboard design, and business recommendations.
+A professional Retail Sales Analytics and Business Intelligence Portfolio Project using **Python**, **MySQL**, and **Power BI**. The project is designed for Data Analyst and Business Intelligence roles and demonstrates end-to-end analytical thinking: data preparation, SQL analysis, dashboard design, and business recommendations.
 
 ## Project Overview
 
